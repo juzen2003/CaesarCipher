@@ -1,9 +1,20 @@
 /* Add your styles here */
 #keyword-display {
   border-collapse: collapse;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 #keyword-display td {
+  border: 1px solid black;
+  width: 20px;
+  text-align: center;
+}
+
+#source-display {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#source-display td {
   border: 1px solid black;
   width: 20px;
   text-align: center;
