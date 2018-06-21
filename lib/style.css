@@ -20,6 +20,17 @@
   text-align: center;
 }
 
+#source-display tr td button:hover {
+  background: #81C0FF;
+
+}
+
 #source, #cipher {
   pointer-events: none;
+  background: #C2CFCB;
+}
+
+h1 {
+  color: #767676;
+  text-decoration: underline;
 }
