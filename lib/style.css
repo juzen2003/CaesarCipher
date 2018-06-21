@@ -10,13 +10,14 @@
 }
 
 #source-display {
+  margin-top: 20px;
   border-collapse: collapse;
   border: 1px solid black;
 }
 
 #source-display td {
   border: 1px solid black;
-  width: 20px;
+  width: 25px;
   text-align: center;
 }
 
@@ -33,4 +34,13 @@
 h1 {
   color: #767676;
   text-decoration: underline;
+}
+
+#update:hover, #clear:hover {
+  background: #81C0FF;
+}
+
+button, input {
+  border-radius: 3px;
+  outline: none;
 }
